@@ -1,26 +1,29 @@
 {
   "name": "react-component-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "description": "A collection of utility components for React applications.",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet. Consider adding testing scripts.\"",
+    "docs": "echo \"No documentation generation script. Consider adding one.\""
   },
   "files": [
     "dist"
   ],
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "keywords": [
+    "react",
+    "component",
+    "utility",
+    "library"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanvir8321/react-component-utils.git"
   },
   "browserslist": {
     "production": [
